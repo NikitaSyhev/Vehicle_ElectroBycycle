@@ -7,6 +7,11 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	
 
+	Vehicle<ElectroFuel> V;
+
+	V.printFuelInfo();
+
+
 	ElectroBicycle EB("Electro");
 
 	EB.printElectroBicycleInfo();
