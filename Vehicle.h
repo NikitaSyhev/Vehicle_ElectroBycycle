@@ -26,8 +26,8 @@ private:
 
 class ElectroBicycle : public Vehicle<ElectroFuel> {
 public:
-	ElectroBicycle(std::string name) ;
-	void printElectroBicycleInfo() {
+	ElectroBicycle(const std::string name) ;
+	const  void printElectroBicycleInfo() {
 		std::cout << _name << std::endl;
 	}
 private:
